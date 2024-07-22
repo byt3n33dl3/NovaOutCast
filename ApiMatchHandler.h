@@ -2,8 +2,8 @@
 // Created by Vladimir on 20.06.20.
 //
 
-#ifndef AVCLEANER_APIMATCHHANDLER_H
-#define AVCLEANER_APIMATCHHANDLER_H
+#ifndef NOVAOUTCAST_APIMATCHHANDLER_H
+#define NOVAOUTCAST_APIMATCHHANDLER_H
 
 #include <vector>
 #include <string>
@@ -125,4 +125,4 @@ static std::vector<std::string> Syscalls = {
         "WriteProcessMemory",
         "CreateRemoteThread"
 };
-#endif //AVCLEANER_APIMATCHHANDLER_H
+#endif //NOVAOUTCAST_APIMATCHHANDLER_H

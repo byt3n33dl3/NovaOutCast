@@ -1,4 +1,4 @@
-WIN_INCLUDE="/Users/vladimir/dev/anti-av/hkclnr/avcleaner"
+WIN_INCLUDE="/Users/vladimir/dev/anti-av/hkclnr/novaoutcast"
 CLANG_PATH="/usr/local/Cellar/llvm/9.0.1"#"/usr/lib/clang/8.0.1/"
 
 clang -cc1 -ast-dump "$1" -D "_WIN64" -D "_UNICODE" -D "UNICODE" -D "_WINSOCK_DEPRECATED_NO_WARNINGS"\

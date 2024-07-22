@@ -2,8 +2,8 @@
 // Created by vladimir on 16.10.19.
 //
 
-#ifndef AVCLEANER_CONSUMER_H
-#define AVCLEANER_CONSUMER_H
+#ifndef NOVAOUTCAST_CONSUMER_H
+#define NOVAOUTCAST_CONSUMER_H
 
 #include "clang/ASTMatchers/ASTMatchers.h"
 #include "clang/Rewrite/Core/Rewriter.h"
@@ -27,4 +27,4 @@ public:
     std::vector<ASTConsumer*> consumers;
 };
 
-#endif //AVCLEANER_CONSUMER_H
+#endif //NOVAOUTCAST_CONSUMER_H

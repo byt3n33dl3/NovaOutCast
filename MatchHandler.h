@@ -2,8 +2,8 @@
 // Created by vladimir on 28.09.19.
 //
 
-#ifndef AVCLEANER_MATCHHANDLER_H
-#define AVCLEANER_MATCHHANDLER_H
+#ifndef NOVAOUTCAST_MATCHHANDLER_H
+#define NOVAOUTCAST_MATCHHANDLER_H
 
 #include <vector>
 #include <string>
@@ -128,4 +128,4 @@ private:
     std::string findStringType(const clang::StringLiteral &NodeString, clang::ASTContext *const pContext);
 };
 
-#endif //AVCLEANER_MATCHHANDLER_H
+#endif //NOVAOUTCAST_MATCHHANDLER_H

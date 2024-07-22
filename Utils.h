@@ -2,8 +2,8 @@
 // Created by Vladimir on 20.06.20.
 //
 
-#ifndef AVCLEANER_UTILS_H
-#define AVCLEANER_UTILS_H
+#ifndef NOVAOUTCAST_UTILS_H
+#define NOVAOUTCAST_UTILS_H
 
 #include <iostream>
 
@@ -45,4 +45,4 @@ namespace Utils {
     extern std::string generateVariableDeclaration(const std::string &StringIdentifier, const std::string &StringValue, std::string StringType="");
 };
 
-#endif //AVCLEANER_UTILS_H
+#endif //NOVAOUTCAST_UTILS_H

@@ -1,4 +1,4 @@
-WIN_INCLUDE="/home/vladimir/dev/anti-av/hkclnr/avcleaner"
+WIN_INCLUDE="/home/vladimir/dev/anti-av/hkclnr/novaoutcast"
 CLANG_PATH="/usr/lib/clang/8.0.1/"
 clang-query "$1" -- -Xclang -ast-dump -D "_WIN64" -D "_UNICODE" -D "UNICODE" -D "_WINSOCK_DEPRECATED_NO_WARNINGS"  -ferror-limit 500 -target x86_64-pc-windows-msvc19.15.26726\
   "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names"\
