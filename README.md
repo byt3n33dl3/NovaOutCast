@@ -1,5 +1,21 @@
 ## NovaOutCast | [N.O.C](https://github.com/pxcs/NovaOutCast/)
 
+```python
+                     ______
+                  .-"      "-.
+                 /            \
+                |  P X x C S   |
+                |,  .-.  .-.  ,|
+                | )(__/  \__)( |
+                |/     /\     \|
+      (@_       (_     ^^     _)
+ _     ) \_______\__|IIIIII|__/__________________________
+(_)@8@8{}<________|-\IIIIII/-|===========================>
+       )_/        \          /
+      (@           `--------`  CappaX - pxcs - bypassAV
+
+```
+
 # Blog posts
 
 The implementation is rather complex and this domain in software development is rarely documented in layman's terms. This is why there are blog posts which detail every design choice and go over the quirks of working with the LLVM API.
@@ -40,5 +56,5 @@ In case you encounter this error, please use `CMakeLists_archlinux.txt` instead 
 
 ## Contributors
 
-Thanks @gituser5555 for the bug fixes.
-**AVCLEARNERS** for source codes
+- Thanks @gituser5555 for the bug fixes.
+    - **AVCLEARNERS** for source codes
